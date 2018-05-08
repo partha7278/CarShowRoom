@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A362E880-3254-40D0-9E2D-16D20A94E551}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CarShowRoom</RootNamespace>
+    <AssemblyName>CarShowRoom</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\MY LAPI\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>8B8BA0CC242695BC184244088F0D5A0B6EA896DC</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>CarShowRoom_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Booking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Booking.Designer.cs">
+      <DependentUpon>Booking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CarView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarView.Designer.cs">
+      <DependentUpon>CarView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePassword.Designer.cs">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeProfile.Designer.cs">
+      <DependentUpon>ChangeProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Code\BussinessLogic.cs" />
+    <Compile Include="Code\Query_DB.cs" />
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login1.Designer.cs">
+      <DependentUpon>Login1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyOrder.Designer.cs">
+      <DependentUpon>MyOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyTestDrive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyTestDrive.Designer.cs">
+      <DependentUpon>MyTestDrive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SellView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SellView.Designer.cs">
+      <DependentUpon>SellView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SendFeedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SendFeedback.Designer.cs">
+      <DependentUpon>SendFeedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignupPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignupPage.Designer.cs">
+      <DependentUpon>SignupPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestDrive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestDrive.Designer.cs">
+      <DependentUpon>TestDrive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestDriveViews.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestDriveViews.Designer.cs">
+      <DependentUpon>TestDriveViews.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateQuantity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateQuantity.Designer.cs">
+      <DependentUpon>UpdateQuantity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserViews.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserViews.Designer.cs">
+      <DependentUpon>UserViews.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewFeedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewFeedback.Designer.cs">
+      <DependentUpon>ViewFeedback.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Booking.resx">
+      <DependentUpon>Booking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarView.resx">
+      <DependentUpon>CarView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangePassword.resx">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeProfile.resx">
+      <DependentUpon>ChangeProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login1.resx">
+      <DependentUpon>Login1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyOrder.resx">
+      <DependentUpon>MyOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyTestDrive.resx">
+      <DependentUpon>MyTestDrive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SellView.resx">
+      <DependentUpon>SellView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SendFeedback.resx">
+      <DependentUpon>SendFeedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignupPage.resx">
+      <DependentUpon>SignupPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestDrive.resx">
+      <DependentUpon>TestDrive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestDriveViews.resx">
+      <DependentUpon>TestDriveViews.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateQuantity.resx">
+      <DependentUpon>UpdateQuantity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserViews.resx">
+      <DependentUpon>UserViews.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewFeedback.resx">
+      <DependentUpon>ViewFeedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="CarShowRoom_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Car.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="image\b.jpg" />
+    <Content Include="image\BMW 3 Series 2017\1.jpg" />
+    <Content Include="image\BMW 3 Series 2017\2.jpg" />
+    <Content Include="image\BMW 3 Series 2017\3.JPG" />
+    <Content Include="image\BMW 3 Series 2017\4.JPG" />
+    <Content Include="image\BMW 3 Series 2017\show.jpg" />
+    <Content Include="image\BMW i8\1.jpg" />
+    <Content Include="image\BMW i8\2.jpg" />
+    <Content Include="image\BMW i8\3.jpg" />
+    <Content Include="image\BMW i8\4.jpg" />
+    <Content Include="image\BMW i8\show.jpg" />
+    <Content Include="image\BMW X5 2017\1.jpg" />
+    <Content Include="image\BMW X5 2017\2.jpg" />
+    <Content Include="image\BMW X5 2017\3.jpg" />
+    <Content Include="image\BMW X5 2017\4.jpg" />
+    <Content Include="image\BMW X5 2017\show.jpg" />
+    <Content Include="image\BMW X5 2017\show.png" />
+    <Content Include="image\bmw.jpg" />
+    <Content Include="image\car2.jpg" />
+    <Content Include="image\Ferrari 488\1.jpg" />
+    <Content Include="image\Ferrari 488\2.jpg" />
+    <Content Include="image\Ferrari 488\3.jpg" />
+    <Content Include="image\Ferrari 488\4.jpg" />
+    <Content Include="image\Ferrari 488\show.jpg" />
+    <Content Include="image\Ferrari California\1.jpg" />
+    <Content Include="image\Ferrari California\2.jpg" />
+    <Content Include="image\Ferrari California\3.jpg" />
+    <Content Include="image\Ferrari California\4.jpg" />
+    <Content Include="image\Ferrari California\show.jpg" />
+    <Content Include="image\Ferrari GTC4 Lusso\1.jpg" />
+    <Content Include="image\Ferrari GTC4 Lusso\2.jpg" />
+    <Content Include="image\Ferrari GTC4 Lusso\3.jpg" />
+    <Content Include="image\Ferrari GTC4 Lusso\4.jpg" />
+    <Content Include="image\Ferrari GTC4 Lusso\show.jpg" />
+    <Content Include="image\ferrari.jpg" />
+    <Content Include="image\l Aventador\1.jpg" />
+    <Content Include="image\l Aventador\2.jpg" />
+    <Content Include="image\l Aventador\3.jpg" />
+    <Content Include="image\l Aventador\4.jpg" />
+    <Content Include="image\l Aventador\show.jpg" />
+    <Content Include="image\l Centenario\1.jpg" />
+    <Content Include="image\l Centenario\2.jpg" />
+    <Content Include="image\l Centenario\3.jpg" />
+    <Content Include="image\l Centenario\4.jpg" />
+    <Content Include="image\l Centenario\show.jpg" />
+    <Content Include="image\l Huracan\1.jpg" />
+    <Content Include="image\l Huracan\2.jpg" />
+    <Content Include="image\l Huracan\3.jpg" />
+    <Content Include="image\l Huracan\4.jpg" />
+    <Content Include="image\l Huracan\show.jpg" />
+    <Content Include="image\Lamborghini1.jpg" />
+    <Content Include="image\Lamborghini.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.3.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 3.5 SP2</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

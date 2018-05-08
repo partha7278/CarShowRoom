@@ -1,0 +1,542 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CarShowRoom.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CarShowRoom" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="CarShowRoom.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CarShowRoom.exe" size="1315328">
+      <assemblyIdentity name="CarShowRoom" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>okxmHUu5IE1jc/6LinwfLNMUEEY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Car.mdb" size="495616" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>fOQgiTJFz8a1qboFStOUXQVHcr0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="CarShowRoom.exe.config" size="237">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>JoLrOVxUtB9CDef6JNGA9MHH+Ss=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\b.jpg" size="17016">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>oY7II2iigGBo3REF7iHFZT7YZzs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\BMW 3 Series 2017\1.jpg" size="515048">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wPxV3A/Bqco/ZgfhV5WLLgoFmt4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\BMW 3 Series 2017\2.jpg" size="450218">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>A+/GDx7qdGmSbVkTbSu8vVelRTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\BMW 3 Series 2017\3.JPG" size="321625">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>0AVhB5G3NS0m5cuZUGYx17f003Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\BMW 3 Series 2017\4.JPG" size="932545">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>19c9kLDsJX+6O1O3KtgC55V/0LI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\BMW 3 Series 2017\show.jpg" size="13796">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>BJJDJfQ9phdqsbxSlS7LbWaeE9Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\BMW i8\1.jpg" size="21295">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>MDxR18X0FL/0CnmE8Fx4x8C0mII=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\BMW i8\2.jpg" size="69793">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>IRhdV771UStUBWfpPtGgyxmjUGU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\BMW i8\3.jpg" size="28659">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>3Ncaw72FW0fug5uw6aiIVw53ydk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\BMW i8\4.jpg" size="29651">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>u5VtiZjjgkiejJ3VnlvsWiAcWv0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\BMW i8\show.jpg" size="11955">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>BKIXvVUBN6vY5cclatDKqnSyCSA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\BMW X5 2017\1.jpg" size="321913">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>CXlps6n6l/vdkeAKL2at6GR6aAQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\BMW X5 2017\2.jpg" size="184947">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>F7qOy/018X2OgYQK+q8BWgb213Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\BMW X5 2017\3.jpg" size="276801">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>yJ7b1WLzVehUPxeWeGpKjlB2F/I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\BMW X5 2017\4.jpg" size="1054776">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>RS5wB3lzGe2z+aoMyGSsNyzOv/I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\BMW X5 2017\show.jpg" size="20081">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DMiWvQhw5FXK+3kgRD/aFOfffWE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\BMW X5 2017\show.png" size="40077">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>8UGgZdLGCcf8H7iOSlM140h0c/w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\bmw.jpg" size="5514">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>GSFFD4/RsI6a8lrdVlejUsvSmsA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\car2.jpg" size="18029">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ECA812nZ10hT4EmEVaB+UHiGYnA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\Ferrari 488\1.jpg" size="37656">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ZGJr4WSjgW4fvSJwsGw0xvDHK4g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\Ferrari 488\2.jpg" size="72414">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>sE9a+KdT0PS3/5ZIVrlW2V9PafI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\Ferrari 488\3.jpg" size="55126">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>9g62Ca1yCU5V/pgBxtRyX1wWBPI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\Ferrari 488\4.jpg" size="55339">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>UeNIg6hTzkZV/Ns37i+xm9asEUY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\Ferrari 488\show.jpg" size="12106">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bUAZeVtskWj8pMPsdMjDVTLO0pw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\Ferrari California\1.jpg" size="328684">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>H4pflgtLPPlyZf/R+UdkzKWYDX0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\Ferrari California\2.jpg" size="584534">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>BBy7XLjAuhXZo4DevAwm9NQMuDQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\Ferrari California\3.jpg" size="563377">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>KjfBMBpJDCyK07JM1kGG/W0p+O8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\Ferrari California\4.jpg" size="248941">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Km9Gq2ZLx5gQxUArPcEr0WhndqY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\Ferrari California\show.jpg" size="15393">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>CrPNrksXga54Ko/VNppLXmv4Vh8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\Ferrari GTC4 Lusso\1.jpg" size="53534">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>fjZ3xSfN3hAmZifRFCrHakPzUUc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\Ferrari GTC4 Lusso\2.jpg" size="47975">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>UWK40blU4zTDMOA1dI/+x3txxYs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\Ferrari GTC4 Lusso\3.jpg" size="53682">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>cTCuMlqxBQ3ISUYRbNGKIzeHgxU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\Ferrari GTC4 Lusso\4.jpg" size="53560">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>6oUo+QDog5H4ocaDrGVkxXvIyTU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\Ferrari GTC4 Lusso\show.jpg" size="11021">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>j7Nlp6luGVT6QpFJj19akahFeZo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\ferrari.jpg" size="6263">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>PcO43vBD/fEs1QltIWl+P6IAnKs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\l Aventador\1.jpg" size="90220">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>9o38j4oHGs7+w+olc1SzmiXWVgg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\l Aventador\2.jpg" size="134271">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ncYwRHn4IzReXsD4B2vrvpu8yuQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\l Aventador\3.jpg" size="161967">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>FzSnm2Rc3yd/IEnf4PqD5lweYws=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\l Aventador\4.jpg" size="139418">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Yg7IxG5rqHKDa466BG3Q24vshzM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\l Aventador\show.jpg" size="16430">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>GuPy80V/JtlEVRRKXqoIUvP/ebI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\l Centenario\1.jpg" size="127143">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bopTh1WYdxqqfgWlIwviTl/g41w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\l Centenario\2.jpg" size="105008">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4JgsSXz1aeKbD/xTykclfyR7tNo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\l Centenario\3.jpg" size="147139">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>XYdJaG1bgExG9/IPRLRshHfNhRM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\l Centenario\4.jpg" size="148453">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bU/Vw6qVvCLrTEWVlwowWMZUfkc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\l Centenario\show.jpg" size="13050">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>1cSuQbThfTMKjabUPFdEwwbuWvI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\l Huracan\1.jpg" size="31735">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>pOPc7MvCk34qcw72O4mKrechNGI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\l Huracan\2.jpg" size="30946">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>MkhLTsAi7ePScKNfE5BDG6g4EPM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\l Huracan\3.jpg" size="46283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>cuVYd6EDSaWTEEV5cFiNTd/jORg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\l Huracan\4.jpg" size="33108">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>G4ESKS1aLyS9ArXnGRPccVYmYBw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\l Huracan\show.jpg" size="13269">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>aHxhnkMInxNSE2coFghu3Zwmwfk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\Lamborghini.jpg" size="12072">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>dnrxnuWi3Z2hoJDcxSyN6+hPjQU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="image\Lamborghini1.jpg" size="6518">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>PO8rbbDfNJ6PI7lqD5/ZDhZdB4c=</dsig:DigestValue>
+    </hash>
+  </file>
+</asmv1:assembly>
