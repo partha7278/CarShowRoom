@@ -28,3 +28,6 @@ E:\C#\CarShowRoom\CarShowRoom\obj\x86\Debug\CarShowRoom.MyOrder.resources
 E:\C#\CarShowRoom\CarShowRoom\obj\x86\Debug\CarShowRoom.MyTestDrive.resources
 E:\C#\CarShowRoom\CarShowRoom\obj\x86\Debug\CarShowRoom.SendFeedback.resources
 E:\C#\CarShowRoom\CarShowRoom\obj\x86\Debug\CarShowRoom.ViewFeedback.resources
+G:\Project\CarShowRoom\CarShowRoom\bin\Debug\CarShowRoom.exe.config
+G:\Project\CarShowRoom\CarShowRoom\obj\x86\Debug\CarShowRoom.exe
+G:\Project\CarShowRoom\CarShowRoom\obj\x86\Debug\CarShowRoom.pdb

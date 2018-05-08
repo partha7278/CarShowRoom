@@ -75,12 +75,12 @@
             this.myOrderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.myTestDriveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.viewHelpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exitToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.feedbackToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sendFeedbackToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewHelpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.P1)).BeginInit();
@@ -317,7 +317,8 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(102, 16);
             this.label11.TabIndex = 3;
-            this.label11.Text = "+91 9753440952";
+            this.label11.Text = "+91 1234567890";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // label10
             // 
@@ -325,9 +326,9 @@
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(395, 7);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(189, 16);
+            this.label10.Size = new System.Drawing.Size(150, 16);
             this.label10.TabIndex = 2;
-            this.label10.Text = "yogit.gwalherkar9@gmail.com";
+            this.label10.Text = "partha4224@gmail.com";
             // 
             // label9
             // 
@@ -345,9 +346,8 @@
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(140, 7);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(82, 16);
+            this.label8.Size = new System.Drawing.Size(0, 16);
             this.label8.TabIndex = 0;
-            this.label8.Text = "@ Copyright";
             // 
             // P1
             // 
@@ -555,45 +555,23 @@
             // myOrderToolStripMenuItem
             // 
             this.myOrderToolStripMenuItem.Name = "myOrderToolStripMenuItem";
-            this.myOrderToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.myOrderToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.myOrderToolStripMenuItem.Text = "My Order";
             this.myOrderToolStripMenuItem.Click += new System.EventHandler(this.myOrderToolStripMenuItem_Click);
             // 
             // myTestDriveToolStripMenuItem
             // 
             this.myTestDriveToolStripMenuItem.Name = "myTestDriveToolStripMenuItem";
-            this.myTestDriveToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.myTestDriveToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.myTestDriveToolStripMenuItem.Text = "My TestDrive";
             this.myTestDriveToolStripMenuItem.Click += new System.EventHandler(this.myTestDriveToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem1
             // 
             this.exitToolStripMenuItem1.Name = "exitToolStripMenuItem1";
-            this.exitToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.exitToolStripMenuItem1.Size = new System.Drawing.Size(143, 22);
             this.exitToolStripMenuItem1.Text = "Exit";
             this.exitToolStripMenuItem1.Click += new System.EventHandler(this.exitToolStripMenuItem1_Click);
-            // 
-            // helpToolStripMenuItem
-            // 
-            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.viewHelpToolStripMenuItem,
-            this.exitToolStripMenuItem2});
-            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.helpToolStripMenuItem.Text = "Help";
-            // 
-            // viewHelpToolStripMenuItem
-            // 
-            this.viewHelpToolStripMenuItem.Name = "viewHelpToolStripMenuItem";
-            this.viewHelpToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.viewHelpToolStripMenuItem.Text = "View Help";
-            // 
-            // exitToolStripMenuItem2
-            // 
-            this.exitToolStripMenuItem2.Name = "exitToolStripMenuItem2";
-            this.exitToolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
-            this.exitToolStripMenuItem2.Text = "Exit";
-            this.exitToolStripMenuItem2.Click += new System.EventHandler(this.exitToolStripMenuItem2_Click);
             // 
             // feedbackToolStripMenuItem
             // 
@@ -617,6 +595,28 @@
             this.exitToolStripMenuItem3.Size = new System.Drawing.Size(153, 22);
             this.exitToolStripMenuItem3.Text = "Exit";
             this.exitToolStripMenuItem3.Click += new System.EventHandler(this.exitToolStripMenuItem3_Click);
+            // 
+            // helpToolStripMenuItem
+            // 
+            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.viewHelpToolStripMenuItem,
+            this.exitToolStripMenuItem2});
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Text = "Help";
+            // 
+            // viewHelpToolStripMenuItem
+            // 
+            this.viewHelpToolStripMenuItem.Name = "viewHelpToolStripMenuItem";
+            this.viewHelpToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
+            this.viewHelpToolStripMenuItem.Text = "View Help";
+            // 
+            // exitToolStripMenuItem2
+            // 
+            this.exitToolStripMenuItem2.Name = "exitToolStripMenuItem2";
+            this.exitToolStripMenuItem2.Size = new System.Drawing.Size(127, 22);
+            this.exitToolStripMenuItem2.Text = "Exit";
+            this.exitToolStripMenuItem2.Click += new System.EventHandler(this.exitToolStripMenuItem2_Click);
             // 
             // CarView
             // 

@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Booking));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.Token = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -37,8 +39,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.Customer = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,6 +58,24 @@
             this.panel1.Size = new System.Drawing.Size(290, 265);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(69, 42);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(0, 20);
+            this.label7.TabIndex = 8;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(83, 42);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(0, 20);
+            this.label6.TabIndex = 7;
             // 
             // Token
             // 
@@ -84,9 +102,9 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(24, 133);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(184, 20);
+            this.label4.Size = new System.Drawing.Size(194, 20);
             this.label4.TabIndex = 4;
-            this.label4.Text = "Yogit ( Mo 9753440352 )";
+            this.label4.Text = "Partha ( Mo 1234567890 )";
             // 
             // label3
             // 
@@ -126,24 +144,6 @@
             this.label1.Size = new System.Drawing.Size(53, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Hello  ";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(83, 42);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(0, 20);
-            this.label6.TabIndex = 7;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(69, 42);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(0, 20);
-            this.label7.TabIndex = 8;
             // 
             // Booking
             // 
